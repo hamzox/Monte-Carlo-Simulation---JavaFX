@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pi_Estimation.SplashFXMLController">
+   <children>
+      <ImageView fitHeight="370.0" fitWidth="508.0" pickOnBounds="true">
+         <image>
+            <Image url="@back.jpg" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.0" prefHeight="399.0" prefWidth="508.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 50;">
+         <effect>
+            <Shadow />
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Pane>
+   </children>
+   <effect>
+      <Reflection />
+   </effect>
+</StackPane>
